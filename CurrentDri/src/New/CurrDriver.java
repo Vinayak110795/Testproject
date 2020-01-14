@@ -1,7 +1,6 @@
 package New;
 
-//
-///
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -40,7 +39,7 @@ public class CurrDriver {
 		driver.findElement(By.xpath("//table[@class='table table-hover']"));
 
 		
-		//abp maza
+		
 		/// Inside table go for rows.
 
 		List<WebElement> tr = Table.findElements(By.tagName("tr"));
