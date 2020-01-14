@@ -37,6 +37,8 @@ public class CurrDriver {
 		WebElement Table =
 		driver.findElement(By.xpath("//table[@class='table table-hover']"));
 
+		
+		//abp maza
 		/// Inside table go for rows.
 
 		List<WebElement> tr = Table.findElements(By.tagName("tr"));
